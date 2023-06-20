@@ -1,0 +1,51 @@
+[
+  {
+    "request": {
+      "url": "/app/test",
+      "headers":
+        {
+          "csrf_token": "jhfkjahkfjhaskjhfahjaskjdhf"
+        }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "contentType": "application/json;charset=utf-8"
+      },
+      "data": "{\"returnCode\":\"000000\",\"msg\":\"success\"}"
+    }
+  },
+  {
+    "request": {
+      "url": "/app/test1",
+      "headers":
+        {
+          "csrf_token": "jhfkjahkfjhaskjhfahjaskjdhf"
+        }
+
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "contentType": "application/json;charset=utf-8"
+      },
+      "data": "{\"returnCode\":\"000001\",\"msg\":\"success\"}"
+    }
+  },
+  {
+    "request": {
+      "url": "/app/test2",
+      "headers":
+        {
+          "csrf_token": "jhfkjahkfjhaskjhfahjaskjdhf"
+        }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "contentType": "application/json;charset=utf-8"
+      },
+      "data": "{\"returnCode\":\"000002\",\"msg\":\"success\"}"
+    }
+  }
+]

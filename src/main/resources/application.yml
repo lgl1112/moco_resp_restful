@@ -1,0 +1,12 @@
+server:
+#  http-port: 7998
+  port: 7999
+  ssl:
+    key-store: classpath:weblogicCas.keystore
+    key-alias: weblogicCas
+    key-password: changeit
+    key-store-password: changeit
+    key-store-type: JKS
+JsonFile:
+  path: classpath:Json.json
+#  path: ../../../Json.json
